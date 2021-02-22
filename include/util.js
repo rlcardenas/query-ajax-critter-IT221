@@ -19,7 +19,6 @@ var errorHandling = "alert";   //set to alert, none or default to trigger window
 
 if(viewRenderedSource)
 {//if viewRenderedSource var is true (above) we'll initialize initRendered() which will add a button to view rendered source
-	addOnload(initRendered);
 }
 
 /**
